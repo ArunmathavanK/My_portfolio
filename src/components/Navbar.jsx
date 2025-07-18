@@ -1,4 +1,9 @@
 import { useEffect } from "react";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { IoMail } from "react-icons/io5";
+import { FaHashnode } from "react-icons/fa6";
 
 export const Navbar = ({menuOpen, setMenuOpen}) =>{
     useEffect(() =>{
@@ -8,10 +13,19 @@ export const Navbar = ({menuOpen, setMenuOpen}) =>{
     <nav className="fixed top-0 w-full z-40 bg-[rgba(10,10,10,0.8)] backdrop-blur-lg border-b border-white/10 shadow-lg">
         <div className="max-w-5xl mx-auto px-4">
             <div className="flex justify-between items-center h-16">
+                { /* Name + Social Links */}
                 <a href="#home" className="font-mono text-xl font-bold text-white"> 
-                    {" "}
-                    Arunmathavan<span className="text-blue-500"> K</span>
+                    Arunmathavan
                 </a>
+
+                <div className="flex space-x-4 text-white text-xl ">
+                    <a href="mailto:arunmathavankamaraj2003@gmail.com" target="_blank" rel="nooper noreferrer"><IoMail /></a>
+                    <a href="https://www.linkedin.com/in/arunmathavan-backend-developer/" target="_blank" rel="nooper noreferrer"><FaLinkedin /></a>
+                    <a href="https://arunmathavank.hashnode.dev/" target="_blank" rel="nooper noreferrer"><FaHashnode /></a>
+                    <a href="https://github.com/ArunmathavanK" target="_blank" rel="nooper noreferrer"><FaGithub /></a>
+                    <a href="https://x.com/ArunmathavanK" target="_blank" rel="nooper noreferrer"><FaSquareXTwitter /></a>
+                </div>
+
 
                 {/* mobile menu icon */}
                 <div 
