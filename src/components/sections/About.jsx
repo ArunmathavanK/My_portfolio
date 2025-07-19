@@ -1,8 +1,10 @@
 import { RevealOnScroll } from "../RevealOnScroll"
 export const About = () => {
 
-    const frontendSkills = ['React','TailwindCSS','JavaScript'];
-    const backendsSkills = ['Python','Django','JavaScript','AWS','PostgreSql', 'Mysql']
+    const frontendSkills = ['React','HTML5','CSS','TailwindCSS','JavaScript'];
+    const backendsSkills = ['Python','Django','JavaScript','PostgreSql', 'Mysql']
+    const DevopsTools = ['Docker','AWS','Git']
+    const Tools = ['VS Code','Pycharm','Vercel']
 
     return (
     <section id='about' className="min-h-screen px-4 py-20">
@@ -13,7 +15,7 @@ export const About = () => {
 
             <div className="glass rounded-xl p-8 border-white/10 border hover:translate-y-1 transition-all">
                 <p className="text-gray-300 mb-6">
-                    Passionate deveoper with experetise in building calabel webs
+                   I have Passionate developer with experetise in building things using these tools.
                 </p>
                  
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -35,6 +37,34 @@ export const About = () => {
                         <h3 className="text-xl font-bold mb-4"> Backend </h3>
                         <div className="flex flex-wrap gap-2">
                             {backendsSkills.map((tech,key) => (
+                                <span 
+                                    key={key}
+                                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
+                                               hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] transition">
+                                {tech}
+                                </span>
+                            ))}
+                        </div>
+                    </div>
+
+                    <div className="rounded-xl p-6 hover:translate-y-1 transition-all">
+                        <h3 className="text-xl font-bold mb-4"> Cloud & Devops </h3>
+                        <div className="flex flex-wrap gap-2">
+                            {DevopsTools.map((tech,key) => (
+                                <span 
+                                    key={key}
+                                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
+                                               hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] transition">
+                                {tech}
+                                </span>
+                            ))}
+                        </div>
+                    </div>
+
+                    <div className="rounded-xl p-6 hover:translate-y-1 transition-all">
+                        <h3 className="text-xl font-bold mb-4"> Tools & Technolgies </h3>
+                        <div className="flex flex-wrap gap-2">
+                            {Tools.map((tech,key) => (
                                 <span 
                                     key={key}
                                     className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
