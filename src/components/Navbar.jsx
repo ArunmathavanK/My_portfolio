@@ -19,7 +19,6 @@ export const Navbar = ({menuOpen, setMenuOpen}) =>{
                 </a>
 
                 <div className="flex space-x-2 text-white text-xl ">
-                    <a href="mailto:arunmathavankamaraj2003@gmail.com" target="_blank" rel="nooper noreferrer"><IoMail /></a>
                     <a href="https://www.linkedin.com/in/arunmathavan-backend-developer/" target="_blank" rel="nooper noreferrer"><FaLinkedin /></a>
                     <a href="https://arunmathavank.hashnode.dev/" target="_blank" rel="nooper noreferrer"><FaHashnode /></a>
                     <a href="https://github.com/ArunmathavanK" target="_blank" rel="nooper noreferrer"><FaGithub /></a>
