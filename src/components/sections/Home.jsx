@@ -9,9 +9,8 @@ export const Home=() => {
                 Hi, I am Arunmathavan
             </h1>
             <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-                I have a strong foundation in software
-                development. Passionate about problem-solving and delivering efficient, user-focused
-                solutions. Committed to continuous learning and contributing to impactful projects.
+                I have a strong foundation in Programming knowledge in Python and JavaScript. I am passionate about problem-solving and delivering efficient, user-focused
+                solutions.And also I have committed to continuous learning and contributing to impactful projects.
             </p>
             <div className="flex justify-center space-x-4">
                 <a href="#projects" className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden

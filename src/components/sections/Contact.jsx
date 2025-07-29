@@ -32,7 +32,7 @@ export const Contact = () => {
                     {""}
                     Get In Touch
                 </h2>
-                <form  ref={form}  className="space-y-6" onSubmit={handleSubmit}>   
+                <form  ref={form}  className="space-y-8" onSubmit={handleSubmit}>   
                    <div className="relative">
                        <input type="text" 
                               id="name" 
@@ -42,7 +42,7 @@ export const Contact = () => {
                               required
                               onChange={(e) => setFormData({ ...formData, name: e.target.value })
                             }
-                              className="w-full bg-white/5 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5"
+                              className="w-full sm:w-100 bg-white/5 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5"
                        />
                    </div>
 
