@@ -13,11 +13,11 @@ export const Home = () => {
 
           
           {/* Left: Image */}
-          <div className="md:flex-1 flex justify-center md:justify-center">
+          <div className="hidden md:flex md:flex-1 justify-center">
             <img
               src={arunImage}
               alt="Arunmathavan"
-              className="h-99 w-92 object-contain bg-blue shadow-xl p-2"
+              className="w-92 h-99 object-contain shadow-xl p-2"
             />
           </div>
 
