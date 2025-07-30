@@ -16,10 +16,6 @@ export const Projects = () => {
                     {/* Project 1 */}
               <div className="p-6 bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl shadow hover:shadow-blue-500/20 transition-shadow duration-300">
                 <h3 className="text-xl font-bold text-white mb-3 flex justify-center items-center mt-4 gap-3">Blog Project
-                    <a href="https://github.com/ArunmathavanK/Blog" target="_blank" rel="noopener noreferrer" className="text-black-400 hover:text-white-300 transition-colors" aria-label="View on GitHub"
-                    >
-                      <Github className="w-5 h-5"/>
-                    </a>
                 </h3>
 
                 <p className="text-gray-400 mb-4 leading-relaxed">
@@ -39,14 +35,18 @@ export const Projects = () => {
                     </span>
                      ))}
                 </div>
+                <div className="flex justify-end items-center gap-2 mt-4">
+                    <span className="text-white font-medium">Project Link →</span>
+                        <a href="https://github.com/ArunmathavanK/Blog" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-400 transition-colors" aria-label="View on GitHub">
+                            <Github className="w-5 h-4" />
+                        </a>
+                </div>
+
+
               </div>
 
               <div className="p-6 bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl shadow hover:shadow-blue-500/20 transition-shadow duration-300">
                 <h3 className="text-xl font-bold text-white mb-3 flex justify-center items-center mt-4 gap-3">Schemify
-                    <a href="https://github.com/ArunmathavanK/Schemify_chatbot" target="_blank" rel="noopener noreferrer" className="text-black-400 hover:text-white-300 transition-colors" aria-label="View on GitHub"
-                    >
-                      <Github className="w-5 h-5"/>
-                    </a>
                 </h3>
 
                 <p className="text-gray-400 mb-4 leading-relaxed">
@@ -65,14 +65,17 @@ export const Projects = () => {
                     </span>
                      ))}
                 </div>
+                <div className="flex justify-end items-center gap-2 mt-4">
+                    <span className="text-white font-medium">Project Link →</span>
+                        <a href="https://github.com/ArunmathavanK/Schemify_chatbot" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-400 transition-colors" aria-label="View on GitHub">
+                            <Github className="w-5 h-4" />
+                        </a>
+                </div>
               </div>
 
                <div className="p-6 bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl shadow hover:shadow-blue-500/20 transition-shadow duration-300">
-                <h3 className="text-xl font-bold text-white mb-3 flex justify-center items-center mt-4 gap-3">To_Do_list
-                    <a href="https://github.com/ArunmathavanK/to__do" target="_blank" rel="noopener noreferrer" className="text-black-400 hover:text-white-300 transition-colors" aria-label="View on GitHub"
-                    >
-                      <Github className="w-5 h-5"/>
-                    </a>
+                <h3 className="text-xl font-bold text-white mb-3 flex justify-center items-center mt-4 gap-3">To-do-list
+        
                 </h3>
 
                 <p className="text-gray-400 mb-4 leading-relaxed">
@@ -89,6 +92,12 @@ export const Projects = () => {
                         {tech}
                     </span>
                      ))}
+                </div>
+                <div className="flex justify-end items-center gap-2 mt-4">
+                    <span className="text-white font-medium">Project Link →</span>
+                        <a href="https://github.com/ArunmathavanK/to__do" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-400 transition-colors" aria-label="View on GitHub">
+                            <Github className="w-5 h-4" />
+                        </a>
                 </div>
               </div>
             
