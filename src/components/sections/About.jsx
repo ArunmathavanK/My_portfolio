@@ -15,7 +15,7 @@ export const About = () => {
 
             <div className="glass rounded-xl p-8 border-white/10 border hover:translate-y-1 transition-all">
                 <p className="text-gray-300 mb-6">
-                I’m a passionate full-stack developer with expertise in building scalable and secure web applications. My tech stack includes 
+                I’m a passionate Backend developer with expertise in building scalable and secure web applications. My tech stack includes 
                 Python (Django) for the backend and React, HTML5, CSS, JavaScript, and TailwindCSS for the frontend. I manage data with PostgreSQL
                 and MySQL, ensuring robust and optimized performance. I specialize in Dockerized deployments, hosting projects on AWS EC2, using S3 for secure file storage, and leveraging Vercel for fast and reliable frontend delivery. With a strong focus on clean architecture, automation, and performance, I aim to create solutions that are both impactful and user‑friendly.
                 </p>

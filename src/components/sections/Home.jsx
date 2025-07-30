@@ -27,7 +27,7 @@ export const Home = () => {
               Hi, I am Arunmathavan
             </h1>
             <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto md:mx-0">
-              I have a strong foundation in Programming knowledge in Python and
+              I have a strong foundation in programming knowledge in Python and
               JavaScript. I am passionate about problem-solving and delivering
               efficient, user-focused solutions. I am also committed to
               continuous learning and contributing to impactful projects.
